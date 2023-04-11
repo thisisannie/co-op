@@ -1,0 +1,15 @@
+.page {
+	position: relative;
+	height: 100vh;
+	width: 100vw;
+	overflow: hidden;
+	background-image: url("../images/iStock-1397373080-couple-2300.webp");
+	background-size: cover;
+	background-position: center;
+}
+.content {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	height: 50vh;
+}

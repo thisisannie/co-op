@@ -1,0 +1,32 @@
+header {
+	display: flex;
+	justify-content: space-between;
+}
+.logo {
+	padding: 3vw;
+	&.coop {
+		width: 50vw;
+	}
+	&.fed {
+		width: 30vw;
+	}
+	@media (min-width: 800px) {
+		&.coop {
+			width: 35vw;
+		}
+		&.fed {
+			transform: rotate(-90deg);
+			transform-origin: bottom right;
+			position: absolute;
+			right: 0.5vh;
+			top: -14vh;
+			padding: 0;
+			width: 99vh;
+		}
+	}
+	@media (min-width: 1920px) {
+		&.coop {
+			width: 30vw;
+		}
+	}
+}

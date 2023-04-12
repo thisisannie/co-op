@@ -1,0 +1,23 @@
+body {
+	font-family: 'Noto Sans', sans-serif;
+}
+h1 {
+	font-size: 25px;
+	color: white;
+	text-transform: uppercase;
+	padding-bottom: 14px;
+	font-weight: bold;
+	@media (min-width: 800px) {
+		font-size: 3.1vw;
+		padding-bottom: 1vw;
+	}
+}
+p {
+	font-size: 14px;
+	padding-bottom: 14px;
+	color: white;
+	@media (min-width: 800px) {
+		font-size: 1.6vw;
+		padding-bottom: 1vw;
+	}
+}

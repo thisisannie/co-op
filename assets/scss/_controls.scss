@@ -1,0 +1,14 @@
+.button {
+	display: inline-block;
+	background-color: #2db45d;
+	border-radius: 100px;
+	padding: 14px 28px;
+	font-size: 14px;
+	color: white;
+	text-decoration: none;
+	font-weight: bold;
+	@media (min-width: 800px) {
+		font-size: 1.6vw;
+		padding: 1vw 2vw;
+	}
+}

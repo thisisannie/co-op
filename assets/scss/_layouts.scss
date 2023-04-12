@@ -13,3 +13,9 @@
 	justify-content: center;
 	height: 50vh;
 }
+.container {
+	max-width: 94vw;
+	@media (min-width: 800px) {
+		max-width: 50vw;
+	}
+}

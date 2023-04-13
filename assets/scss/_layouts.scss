@@ -8,11 +8,7 @@
 	width: 900px;
 	margin: auto;
 	@media (min-width: 800px) {
-		max-width: calc(100% - 6vw);
-		width: 80%;
-	}
-	@media (min-width: 1200px) {
-		max-width: 1200px;
+		max-width: calc(800px + 14vh);
 		width: 80%;
 	}
 }

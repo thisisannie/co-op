@@ -1,15 +1,35 @@
 body {
 	font-family: 'Noto Sans', sans-serif;
+	line-height: 1.4;
 }
 h1 {
 	font-size: 25px;
-	color: white;
+	color: $green;
 	text-transform: uppercase;
 	padding-bottom: 14px;
 	font-weight: bold;
 	@media (min-width: 800px) {
 		font-size: 3.1vw;
 		padding-bottom: 1vw;
+	}
+	@media (min-width: 1200px) {
+		font-size: 2.7vw;
+		padding-bottom: .9vw;
+	}
+}
+h2 {
+	font-size: 22px;
+	color: $green;
+	text-transform: uppercase;
+	padding-bottom: 14px;
+	font-weight: bold;
+	@media (min-width: 800px) {
+		font-size: 2.7vw;
+		padding-bottom: 1vw;
+	}
+	@media (min-width: 1200px) {
+		font-size: 2.2vw;
+		padding-bottom: .9vw;
 	}
 }
 p {
@@ -19,5 +39,9 @@ p {
 	@media (min-width: 800px) {
 		font-size: 1.6vw;
 		padding-bottom: 1vw;
+	}
+	@media (min-width: 1200px) {
+		font-size: 1.3vw;
+		padding-bottom: .9vw;
 	}
 }

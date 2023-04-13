@@ -2,20 +2,20 @@
 	position: relative;
 	height: 100vh;
 	width: 100vw;
-	overflow: hidden;
-	background-image: url("../images/iStock-1397373080-couple-2300.webp");
-	background-size: cover;
-	background-position: center;
+	overflow-x: hidden;
+	background-color: $aubergine;
 }
 .content {
-	display: flex;
-	align-items: center;
-	justify-content: center;
-	height: 50vh;
-}
-.container {
-	max-width: 94vw;
+	max-width: calc(100% - 6vw);
+	width: 900px;
+	margin: auto;
 	@media (min-width: 800px) {
-		max-width: 50vw;
+		width: 80%;
+	}
+}
+section {
+	margin: 100px 0;
+	@media (min-width: 800px) {
+		padding-right: 14vw;
 	}
 }
